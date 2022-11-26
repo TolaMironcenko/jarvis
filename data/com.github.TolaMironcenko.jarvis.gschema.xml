@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-	<schema path="/com/github/TolaMironcenko/jarvis" id="com.github.TolaMironcenko.jarvis">
-		<key name="window-position" type="(ii)">
-			<default>(-1, -1)</default>
-			<summary>Window position</summary>
-			<description>Most recent window position (x, y)</description>
+	<schema path="/com/github/TolaMironcenko/jarvis/" id="com.github.TolaMironcenko.jarvis">
+		<key name="pos-x" type="i">
+			<default>360</default>
+			<summary>Horizontal position</summary>
+			<description>The saved horizontal position our window</description>
 		</key>
-			<key name="window-size" type="(ii)">
-			<default>(1000, 680)</default>
-			<summary>Most recent window size</summary>
-			<description>Most recent window size (width, height)</description>
+		<key name="post-y" type="i">
+			<default>360</default>
+			<summary>Vertical position</summary>
+			<description>The saved Vertical position our window</description>
+		</key>
+		<key name="window-width" type="i">
+			<default>600</default>
+			<summary>Window width</summary>
+			<description>The saved width our window</description>
+		</key>
+		<key name="window-height" type="i">
+			<default>400</default>
+			<summary>Window height</summary>
+			<description>The saved height our window</description>
 		</key>
 	</schema>
 </schemalist>
